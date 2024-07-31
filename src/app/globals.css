@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --main-black: #1A1A25;
+  --main-background: #F6F6F6;
+  --main-pink: #CB11AB;
+  --max-width: 1440px;
+}
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: white;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: black;
+	border-radius: 20px;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--main-background);
+}
+
+.background {
+  background-color: #1A1A25;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.main-black-background {
+  background-color: var(--main-black);
+}
+
+.main-pink-background {
+  background-color: #CB11AB;
+}
+
+.max-container{
+  max-width: var(--max-width);
+  margin:0 80px
+}
